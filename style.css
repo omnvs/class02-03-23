@@ -1,0 +1,86 @@
+body{
+    background-image: url("Images/PenguinBackgroun.jpg");
+}
+
+
+#mainTitle{
+text-align: center;
+font-size: 3vw;
+font-family: Arial, Helvetica, sans-serif; color: white; 
+font-weight: bold;
+
+}
+
+.header2{
+    font-family: Arial, Helvetica, sans-serif; color: black;
+}
+
+.container{
+    width: 80%;
+    margin: 10%;
+    border: 5px red dotted;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container2{
+    background-image: url("Images/PenguinOutOfWater.jpg"); background-repeat: no-repeat;
+    margin: 10%;
+    padding: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.column1{
+    color: aliceblue;
+    float: left; 
+    width: 50%;
+}
+
+.column2{
+    color: aliceblue;
+    float: right; 
+    width: 50%;
+    font-family: helvetica;
+    font-size: 2.4vw;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
+}
+
+.images{
+    max-width: 90%;
+}
+
+div.A{
+    background-color: aqua;
+    height:100px;
+    width: 400px;
+}
+div.B{
+    background-color: green;
+    height: 50%;
+    width:50%;
+}
+div.C{
+    background-color: yellow;
+    height: 50%;
+    width: 50%;
+}
+
+  .ANIMATION{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: ANIMATION;
+    animation-duration: 4s;
+
+  }
+
+  @keyframes .ANIMATION{
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
